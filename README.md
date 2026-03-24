@@ -30,4 +30,4 @@ The dataset contains information about mall customers including:
 - **Scikit-learn** - Machine learning algorithms
 - **Jupyter Notebook** - Interactive development
 
-## 📁 Project Structure
+
