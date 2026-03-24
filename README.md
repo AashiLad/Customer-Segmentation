@@ -30,4 +30,26 @@ The dataset contains information about mall customers including:
 - **Scikit-learn** - Machine learning algorithms
 - **Jupyter Notebook** - Interactive development
 
+## 📊 Results
 
+### Optimal Clusters: 5
+- **Cluster 0 (Green):** Medium income, high spending
+- **Cluster 1 (Red):** High income, medium spending  
+- **Cluster 2 (Yellow):** Medium income, low spending
+- **Cluster 3 (Violet):** Low income, low spending
+- **Cluster 4 (Blue):** High income, high spending
+
+### Elbow Method Results
+| Clusters | WCSS |
+|----------|------|
+| 1 | ~250,000 |
+| 2 | ~120,000 |
+| 3 | ~80,000 |
+| 4 | ~55,000 |
+| **5** | **~40,000** ← Optimal |
+| 6 | ~35,000 |
+
+### Key Business Insights
+- **High income, high spending customers (Blue):** Premium segment, focus on luxury products
+- **Low income, high spending customers (Violet):** Aspirational buyers, potential for targeted credit/promotions
+- **Medium income segments:** Opportunities for loyalty programs
